@@ -8,6 +8,7 @@ body{
     justify-content: center;
     background: url("https://images.unsplash.com/photo-1526258620863-a4d2c60cae39?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHNtb290aHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60");
     background-size: cover;
+    overflow: hidden;
 }
 
 h2{
