@@ -15,6 +15,8 @@ function updateClock(){
     }
 
     hour = hour < 10 ? "0" + hour : hour;
+    minutes = minutes < 10 ? "0" + minutes : minutes;
+    seconds = seconds < 10 ? "0" + seconds : seconds;
 
     hourEl.innerText = hour;
     minuteEl.innerText = minutes;
